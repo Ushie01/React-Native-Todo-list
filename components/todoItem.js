@@ -5,7 +5,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 export default TodoItem = ({ item, pressHandler }) => {
 	return (
 		<TouchableOpacity onPress={() => pressHandler(item.key)}>
-			<View styles={styles.item}>
+			<View style={styles.item}>
 				<MaterialIcons
 					name='delete'
 					size={18}
